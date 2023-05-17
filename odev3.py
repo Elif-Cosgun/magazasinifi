@@ -48,7 +48,7 @@ def main():
             break
         #Kuulanicidan satici adi, satici turu ve satis miktarini al.
         satici_adi = input("Satıcının adını giriniz: ")
-        satici_turu = input("Satıcının türünü girin: ")
+        satici_turu = input("Satıcının türünü giriniz: ")
         miktar = float(input("Satış miktarını girin: "))
         #Magazalar sozlugu icinde magaza anahtarini ara.
         #Eger magaza adi anahtari mevcutsa degeri magaza degiskenine ata.
