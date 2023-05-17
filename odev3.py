@@ -81,7 +81,7 @@ def main():
     #Satici adi adli degiskene anahtar, satis miktari adli degiskene de deger atanir.
     for satici_adi, satis_miktari in satici_toplam_satis.items():
         #Her bir satici adi ve satis miktarini ekrana yazdir.
-        print(f"{satici_adi} - {satis_miktari} TL")
+        print(f"{satici_adi} - {satis_miktari} TL'dir.")
 #Main metodunu cagir.
 if __name__ == '__main__':
     main()
