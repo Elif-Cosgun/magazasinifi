@@ -42,7 +42,7 @@ satici_toplam_satis = {}
 def main():
     while True:
         #Kullanicidan magaza adi girdisi al.
-        magaza_adi = input("Mağaza adını girin (çıkmak için q): ")
+        magaza_adi = input("Mağaza adını girin (çıkmak için q tuslayin.): ")
         #Eger q girilirse donguyu sonlandir.
         if magaza_adi == "q":
             break
