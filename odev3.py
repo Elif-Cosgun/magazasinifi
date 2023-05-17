@@ -1,3 +1,4 @@
+#bilgisayar programlama 2 odev 3
 #Magaza sinifi oluştur.
 class Magaza:
     #initializer metodlu fonksiyonda private değişken tanımla ve satislar sozlugu olusturduk.
