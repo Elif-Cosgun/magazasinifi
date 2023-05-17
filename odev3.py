@@ -1,6 +1,6 @@
 #Magaza sinifi oluştur.
 class Magaza:
-    #initializer metodlu fonksiyonda private değişken tanımla ve satislar sozlugu olustur.
+    #initializer metodlu fonksiyonda private değişken tanımla ve satislar sozlugu olusturduk.
     def __init__(self, magaza_adi, satici_adi, satici_turu):
         self.magaza_adi = magaza_adi
         self.satici_adi = satici_adi
