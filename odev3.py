@@ -1,6 +1,6 @@
 #Magaza sinifi oluştur.
 class Magaza:
-    #initializer metodlu fonksiyonda private değişken tanımla ve satislar sozlugu olusturduk.
+    #initializer metodlu fonksiyonda private değişken tanımla ve satislar sozlugu olustur.
     def __init__(self, magaza_adi, satici_adi, satici_turu):
         self.magaza_adi = magaza_adi
         self.satici_adi = satici_adi
@@ -42,14 +42,14 @@ satici_toplam_satis = {}
 def main():
     while True:
         #Kullanicidan magaza adi girdisi al.
-        magaza_adi = input("Mağaza adını girin (çıkmak için q tuslayin.): ")
+        magaza_adi = input("Mağaza adını girin (çıkmak için q ): ")
         #Eger q girilirse donguyu sonlandir.
         if magaza_adi == "q":
             break
         #Kuulanicidan satici adi, satici turu ve satis miktarini al.
-        satici_adi = input("Satıcının adını giriniz: ")
-        satici_turu = input("Satıcının türünü giriniz: ")
-        miktar = float(input("Satış miktarını giriniz: "))
+        satici_adi = input("Satıcının adını girin: ")
+        satici_turu = input("Satıcının türünü girin: ")
+        miktar = float(input("Satış miktarını girin: "))
         #Magazalar sozlugu icinde magaza anahtarini ara.
         #Eger magaza adi anahtari mevcutsa degeri magaza degiskenine ata.
         if magaza_adi in magazalar:
@@ -81,7 +81,7 @@ def main():
     #Satici adi adli degiskene anahtar, satis miktari adli degiskene de deger atanir.
     for satici_adi, satis_miktari in satici_toplam_satis.items():
         #Her bir satici adi ve satis miktarini ekrana yazdir.
-        print(f"{satici_adi} - {satis_miktari} TL'dir.")
+        print(f"{satici_adi} - {satis_miktari} TL")
 #Main metodunu cagir.
 if __name__ == '__main__':
     main()
